@@ -1,0 +1,13 @@
+interface:
+  display_name: 法律人工智能论文中英翻译
+  short_description: 面向法律人工智能、民事判决书与事理图谱论文的中英翻译审校
+  default_prompt: 使用 $legal-ai-paper-translation 翻译这段法律人工智能论文，并严格统一事理图谱与法律事件术语。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas

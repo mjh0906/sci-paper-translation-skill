@@ -1,0 +1,13 @@
+interface:
+  display_name: SCI论文通用中英翻译
+  short_description: 面向各学科SCI论文的中英翻译、术语统一与投稿前语言审校
+  default_prompt: 使用 $sci-paper-translation 翻译这段中文论文，并保持技术原义和术语一致。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  allow_implicit_invocation: true
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
